@@ -1,0 +1,204 @@
+:root {
+    --font-reenie: 'Reenie Beanie', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-reenie);
+
+}
+
+html {
+        font-size: 62.5%;
+        background: white;
+}
+
+header{
+    width: 98%;
+    max-width: 1920px;
+    margin: auto;
+    padding: 9px 0;
+    text-align: center;
+    background: black;
+    padding-top: 60px;
+    font-size: 2.5rem;
+}
+
+#topo #logo img {
+    width: 98%;
+    max-width: 1024px;
+}
+
+#menu li {
+    list-style: none;
+    margin: 100px;
+    display: inline;
+}
+
+#menu li a {
+    padding: 5px 10px;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+#inicio{
+    width: 98%;
+    margin: auto;
+    background: black;
+    color: white;
+    height: 800px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#inicio #home {
+    margin-bottom: 40px;
+    font-size: 2.8rem;
+}
+
+#jobs {
+    width: 98%;
+    margin: auto;
+    height: 800px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 3.5rem;
+    background: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#jobs .trabalho {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 3.0rem;
+}
+
+#meio {
+    width: 98%;
+    margin: auto;
+    height: 800px;
+    text-align: center;
+    background: black;
+    color: white;    
+    font-size: 3.5rem;
+}
+
+#quemsomos {
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+
+main #meio #description {
+    text-align: justify;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    font-size: 2.8rem;
+}
+
+#imgr {
+    position: absolute;
+    left: 9%;
+    top: 1875px;
+}
+
+#imgn {
+    position: absolute;
+    right: 9%;
+    top: 1875px;
+}
+
+#textbox {
+    text-align: justify;
+    height: 450px;
+    width: 500px;
+    margin: auto;
+}
+
+#fim {
+    width: 98%;
+    margin: auto;
+    height: 400px;
+    font-size: 3.5rem;
+    padding: 40px;
+    background: white;
+}
+
+#contato{
+    padding-top: 40px;
+    margin-bottom: -60px;
+}
+
+#fim ul  {
+    list-style: none;
+    margin: 100px;
+    display: inline;
+    float: left;
+    margin-left: 200px;
+}
+
+@media (max-width: 600px){
+    html {
+        font-size: 50%;
+    }
+
+    #imglogo {
+        margin-top: -60px;
+    }
+
+    #menu li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #inicio {
+        height: 700px;
+    }
+
+    #jobs {
+        height: 600px;
+    }
+
+    #meio {
+        height: 1026px;
+    }
+
+    #textbox {
+        height: 300px;
+        width: 300px;
+        font-size: 1.8rem;
+    }
+
+    #imgr {
+        position: absolute;
+        left: 8%;
+        top: 2500px;
+        height: 226px;
+        width: 150px;
+    }
+    
+    #imgn {
+        position: absolute;
+        right: 8%;
+        top: 2500px;
+        height: 226px;
+        width: 150px;
+    }
+
+    #contato {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #fim ul {
+        margin: 20px;
+        margin-left: 50px;
+
+    }
+}
